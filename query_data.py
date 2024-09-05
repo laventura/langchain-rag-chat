@@ -9,8 +9,10 @@ import openai
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import OpenAIEmbeddings
+# from langchain_community.vectorstores import Chroma
+# from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
+from langchain_chroma import Chroma
 
 from langchain import hub
 from langchain.chains import create_retrieval_chain
