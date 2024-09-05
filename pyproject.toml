@@ -1,0 +1,7 @@
+[project]
+name = "langchain-rag-chat"
+version = "0.1.0"
+description = "RAG using LangChain framework"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
